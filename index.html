@@ -12,15 +12,16 @@
     <h1>Etche A Sketch</h1>
     <div class="header">
         <h6> Select the Size </h6>
-        <button class="btn btn-primary"> Select</button>
+        <button id="popup" class="btn btn-primary" > Select</button>
     </div>
+    <p class="message"></p>
     <div id="main-div">
 
     </div>
     <div class="footer">
-        <button class="btn btn-dark">Black</button>
-        <button class="btn btn-success">Random</button>
-        <button class="btn btn-warning">Reset</button>
+        <button class="btn btn-dark" onclick="setColor('black')">Black</button>
+        <button class="btn btn-success" onclick="setColor('random')">Random</button>
+        <button class="btn btn-warning" onclick="resetCells()">Reset</button>
     </div>
 
     <script src="JS/script.js"></script>
