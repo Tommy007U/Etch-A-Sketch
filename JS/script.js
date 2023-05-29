@@ -52,7 +52,7 @@ function createGrid(cells){
 }
 
 function selectSize(){
-    let input = prompt("What is the size of the cells selected ?");
+    let input = prompt("Select the number of cell you prefer to use ");
     let message = document.querySelector(".message");
     if(input ===" "){
         message.innerHTML = "Please Provide a Number ";
@@ -66,7 +66,7 @@ function selectSize(){
 }
 function colorDiv(){  
     if(click){ 
-        
+
        if(color == "random"){
         this.style.backgroundColor = `hsl(${Math.random()*360}, 100%, 50%)` // this represent the div
        }else{

@@ -23,6 +23,6 @@ body{
 #main-div{
     display: grid;
     border:1px solid coral;
-    width: 600px;
+    width: 500px;
     height: 400px;
 }
